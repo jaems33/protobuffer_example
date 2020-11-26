@@ -1,10 +1,16 @@
 # Protobuff example
 
-Purpose: To see the difference between serializing lots of data in JSON vs. Google's proto format.
+Purpose: To see the difference between serializing data in JSON vs. Google's proto format.
 
-Test Case:
+### Test Case:
+| field     | type      |
+|-----------|-----------|
+| name      | string    |
+| id        | int       |
+| salary    | float     |
 
-Result:
+
+### Result:
 | Instances | json (mb) | proto (mb) |
 |-----------|-----------|------------|
 | 100,000   | 5         | 2.2        |
